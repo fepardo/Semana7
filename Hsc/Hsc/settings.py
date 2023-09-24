@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'Inicio'
+    'rest_api',
+    'Inicio',
 ]
 
 MIDDLEWARE = [
@@ -89,7 +90,7 @@ REST_FRAMEWORK={
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
-        'NAME': '127.0.0.1:1521/xe',
+        'NAME': '127.0.0.1:1521/orcl',
         'USER': 'usuario',
         'PASSWORD': 'usuario1',
         'TEST':{
