@@ -1,5 +1,5 @@
 from django.urls import path
-from rest_framework.views import lista_categorias, vista_categoria
+from rest_api.views import lista_categorias, vista_categoria
 
 urlpatterns =[
     path('lista_categorias/',lista_categorias, name="lista_categorias"),
